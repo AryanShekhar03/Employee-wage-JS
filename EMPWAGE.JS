@@ -48,3 +48,13 @@ function getWorkingHours(empCheck) {
     let empWage = empHrs * WAGE_PER_HOUR;
     console.log("UC3 - Emp Wage: " + empWage, " Total Working Hours: " + empHrs);
 }
+//uc4
+const NUM_OF_WORKING_DAYS=2;
+let empHrs1=0;
+for(let day=0;day<NUM_OF_WORKING_DAYS;day++){
+    let empcheck=Math.floor(Math.random()*10)%3;
+    empHrs1 += getWorkingHours(empcheck);
+
+}
+let empWage=empHrs1*WAGE_PER_HOUR;
+console.log("UC4 -Total Hours " + Totalempwage);  
